@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# script pinging an Ip address
+
+# ip variable
+IP_ADDRESS="${1}"
+
+# filename variable
+fn=$(basename "${BASH_SOURCE[@]}")
+
+if ! [ "$IP_ADDRESS" ]; then
+	echo "Usage: ${fn} {IP_ADDRESS}"
+else
+	ping -c 5 "${IP_ADDRESS}"
+fi
