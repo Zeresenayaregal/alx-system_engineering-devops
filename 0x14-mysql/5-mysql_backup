@@ -14,8 +14,3 @@ mysqldump -u root -p"$1" --all-databases > backup.sql
 
 # Compress the backup.sql file into a tar.gz archive
 tar -czf "$DATE" backup.sql
-
-# Clean up the backup.sql file
-rm backup.sql
-
-echo "Backup created: $DATE"
