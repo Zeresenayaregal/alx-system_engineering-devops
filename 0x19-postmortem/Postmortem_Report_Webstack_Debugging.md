@@ -4,7 +4,7 @@
 
 <p align="center">
 <img src="https://raw.githubusercontent.com/Zeresenayaregal/alx-system_engineering-devops/f6080be4fe45e99502b36e240515e70acdd9b29e/0x19-postmortem/img.webp
-" width=100% height=100% />
+"/>
 </p>
 
 ### Incident report for [Flask Application Outage](#)
