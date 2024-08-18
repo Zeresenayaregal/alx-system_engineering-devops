@@ -3,8 +3,7 @@
 ## Flask Application Outage for Collaborative Project
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/Zeresenayaregal/alx-system_engineering-devops/f6080be4fe45e99502b36e240515e70acdd9b29e/0x19-postmortem/img.png
-" width=100%/>
+<img src="https://raw.githubusercontent.com/Zeresenayaregal/alx-system_engineering-devops/f6080be4fe45e99502b36e240515e70acdd9b29e/0x19-postmortem/img.png" width="100%"/>
 </p>
 
 ### Incident report for [Flask Application Outage](#)
