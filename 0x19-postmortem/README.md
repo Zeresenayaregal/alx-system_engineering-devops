@@ -4,10 +4,17 @@ Learning how to write an Incident Report, also referred to as a Postmortem. This
 
 ### Issue Summary
 
+<<<<<<< HEAD
 -   Our Flask web application experienced an outage that lasted for 2.5 hours. Users encountered "500 Internal Server Error" messages, particularly when trying to log in.
 -   **Duration** July 25, 2024, 9:00 AM - 11:30 AM (EST)
 -   **Impact**: Approximately 70% of users were affected, mostly unable to log in, with some experiencing slow loading times on other parts of the site.
 -   The root cause was a bug in the recent deployment that failed to handle missing user data properly in the login function, leading to unhandled exceptions and application crashes.
+=======
+- Our Flask web application experienced an outage that lasted for 2.5 hours. Users encountered "500 Internal Server Error" messages, particularly when trying to log in.
+- **Duration**: July 25, 2024, 9:00 AM - 11:30 AM (EST)
+- **Impact**: Approximately 70% of users were affected, mostly unable to log in, with some experiencing slow loading times on other parts of the site.
+- The root cause was a bug in the recent deployment that failed to handle missing user data properly in the login function, leading to unhandled exceptions and application crashes.
+>>>>>>> df73fdd7f5e45071fa14b791d69986b6b4ae5349
 
 ### Timeline
 
